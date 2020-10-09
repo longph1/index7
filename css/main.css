@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: Futura1;
+  src: url("../fonts/futura-condensed-pt-medium-589e44ed1e3a5.otf");
+}
+@font-face {
+  font-family: futura-pt-heavy;
+  src: url("../fonts/futura-pt-heavy-589a6dd12187e.otf");
+}
+.Container{
+    width: 100%;
+    height: 100%;
+    background-color: #2B94A5;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color:white;
+    margin: 0 auto;
+    z-index: 1000;
+}
+.logo{
+    width: 20%;
+    height: 60px;
+    background-color: white;
+    float:left;
+    font-family: futura-pt-heavy;
+    padding: 10px 0px 0px 0px;
+}
+.menu{
+    width: 70%;
+    height: 70px;
+    background-color:white;
+    float: right;
+    font-family:"Futura Condensed PT", "Futura Condensed";
+}
+.section1{
+        width: 100%;
+        height: 650px;
+        justify-content: center;
+        display: flex;
+        background:url("../images/web-portfolio-Long_01.jpg"); background-size: 110%; background-repeat: no-repeat;
+}
+.Avatar{
+    width: 210px;
+    height: 210px;
+    border-radius: 200px;
+    position: absolute;
+    margin: 12% 0% 0% 0%;
+    background-color: #FFFFFF;
+}
+.What-is-up{
+    width: 40%;
+    height: 100px;
+    margin: 30% 0% 0% 0%;
+    background:none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-family: Futura1;color: white; font-size: 50px;
+}
+.Cover_button{
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    margin: 41% 0% 0% 0%;
+    background-color:none;
+}
+.My-Portfolio{
+    width: 180px;
+    height: 36px;
+    border: 1px solid white;
+    text-align: center;
+    margin-right: 20px;
+    padding: 2% 0% 0% 0%;
+    float: left;
+    border-radius: 8px;
+    font-family: futura-pt-heavy; color: white; font-size: 23px 
+}
+.My-Portfolio:hover {
+    -ms-transform: scale(1.07); /* IE 9 */
+    -webkit-transform: scale(1.07); /* Safari 3-8 */
+}
+.Contact_me{
+    width: 180px;
+    height: 36px;
+    border: 1px solid white;
+    padding: 2% 0% 0% 0%;
+    float: left;
+    border-radius: 8px;
+    font-family: futura-pt-heavy;color: #f3e118; font-size: 23px;
+}
+.Contact_me:hover {
+    -ms-transform: scale(1.07); /* IE 9 */
+    -webkit-transform: scale(1.07); /* Safari 3-8 */
+    transform: scale(1.07);
+}
+.FB-fixed-button{
+    width: 3%;
+    height: 6%;
+    border-radius: 20% 0% 0% 20%;
+    background-color:#ffffff;
+    background-image:url("../images/Artboard 5 copy.png"); background-size: cover; background-size: 80%; background-repeat: no-repeat; background-position: left;
+    box-shadow: 4px 2px 3px 1px #000000;
+    position: fixed;
+    float: right;
+    justify-content: center;
+    display: flex;
+    margin: 40% 0% 0% 98%;
+}
+.FB-fixed-button:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+.call-button{
+    width: 3%;
+    height: 6%;
+    border-radius: 20% 0% 0% 20%;
+    background-color:#ffffff;
+    background-image:url("../images/Artboard 5.png"); background-size: cover; background-size: 60%; background-repeat: no-repeat; background-position: center;
+    box-shadow: 4px 2px 3px 1px #000000;
+    position: fixed;
+    float: right;
+    justify-content: center;
+    display: flex;
+    margin: 44% 0% 0% 98%;
+}
+.call-button:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+a center:hover{color: cyan}
+.section2{
+    width: 100%;
+    height: 650px;
+    background-image: url("../images/web-portfolio-Long_03.jpg"); background-size: cover;
+    background-color:white;
+    margin: 0 auto;
+}
+.Picture_png{
+    width: 50%;
+    height: 550px;
+    background-image: url("../images/picture_aboutme.png"); background-size: cover;
+    top: 640px;
+    left: 50px;
+    position: absolute;
+    background-color:none;
+    float: left;
+    z-index: 900;
+}
+.Picture{
+    width: 33%;
+    height: 370px;
+    position: absolute;
+    background-image: url();
+    top: 820px;
+    left: 170px;
+    background-color: #0c0f71;
+    float: left;
+}
+.Aboutme{
+    width: 27%;
+    height: 360px;
+    position: absolute;
+    background-image: url();
+    top: 750px;
+    left: 650px;
+    float: left;
+    font-family: Futura1;
+}
+.section3{
+    width: 100%;
+    height: 620px;
+    background-color:#0c0f71; 
+    margin: 0 auto;
+    font-family: futura-pt-heavy;
+    padding-top: 80px;
+}
+.Service_cover{
+    width: 90%;
+    height: 350px;
+    background-color:none;
+    margin: 0 auto;
+    justify-content:center;
+    display: flex;
+}
+.Service1{
+    width: 35%;
+    height: 270px;
+    border-radius: 5%;
+    float: left;
+    margin: 25px;
+    background-color: #FFFFFF;
+    font-family: Futura1; color:#f3e118; font-size: 40px;
+}
+.Service1:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+.section4{
+    width: 100%px;
+    height: 1000px;
+    background-color:#ffffff; 
+    font-family: futura-pt-heavy;
+    padding-top: 80px;
+}
+.Project_cover{
+    width: 80%;
+    height: auto;
+    background-color:none;
+    margin: 0 auto;
+    padding: 4% 0% 0% 3.2%;
+}
+.Project1{
+    width: 30%;
+    height: 310px;
+    float: left;
+    margin: 1%;
+    background-color: #0c0f71;
+    border-radius: 5%;
+}
+.Project1:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+}
+.section5{
+    width: 100%px;
+    height: 300px;
+    background-color:#0c0f71; 
+    font-family: futura-pt-heavy;
+    padding-top: 80px;
+}
+.Contact_cover{
+    width:100%;
+    height: 200px;
+    background-color:none;
+    margin: 0 auto;
+    justify-content:center;
+    display: flex;
+}
+.Contact1{
+    width: 40%;
+    height: 180px;
+    float: left;
+    margin: 25px;
+    background-color:none;
+    font-family: Futura1; color:#FFFFFF; font-size: 25px;
+}
+
+
+
+body{margin:0; padding:0; height: 100vh;}
+ul{list-style: none;}
+ul li{float:left;padding: 10px 10px 10px 85px;}
+ul li a{text-decoration: none;color: #FFFFFF;}
+ul li a font:hover{color:#FACD00;}
+a{text-decoration: none;}
